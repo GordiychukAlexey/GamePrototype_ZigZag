@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8df0b19b094520859b17ed9ff8148c, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Main:
+    OverallDifficult: 1
+  Road:
+    tilePrefab: {fileID: 1437915105321784388, guid: 834b9fe57742cb44e86d55016f558307,
+      type: 3}
+    crystalPrefab: {fileID: 5522528061078614760, guid: e7f781a1916f18547bd0ebcb0d7b430a,
+      type: 3}
+    MaxLength: 10
+    RotateChance: 0.4
+    CrystalSpawnMethod: 0
+  Ball:
+    MovingSpeed: 4
